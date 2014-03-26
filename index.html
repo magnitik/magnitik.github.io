@@ -20,11 +20,20 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <style>@-ms-viewport{width:auto!important}</style>
-    
 </head>
 <body>
-	<div class="container base-container">
+	<script type="text/javascript">
+	if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+	  var msViewportStyle = document.createElement('style')
+	  msViewportStyle.appendChild(
+	    document.createTextNode(
+	      '@-ms-viewport{width:auto!important}'
+	    )
+	  )
+	  document.querySelector('head').appendChild(msViewportStyle)
+	}
+	</script>
+    <div class="container base-container">
         <div class="row cover">
             <!--<img class="img-responsive" src="Content/img/cover.jpg"/>-->
             <div class="col-sm-6 col-sm-offset-5">
