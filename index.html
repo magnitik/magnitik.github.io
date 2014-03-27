@@ -20,6 +20,16 @@
     <![endif]-->
 </head>
 <body>
+     <script type="text/javascript">
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement('style');
+            msViewportStyle.appendChild(
+                document.createTextNode(
+                    '@-ms-viewport{width:auto!important}'
+                )
+            );
+            document.querySelector('head').appendChild(msViewportStyle);
+        }</script>
     <div class="container base-container">
         <div class="row">
             <div class="col-sm-4 col-sm-pull-0 col-sm-offset-8 text-center">
