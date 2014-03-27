@@ -5,33 +5,68 @@
     box-shadow: 0px -1px 14px 0px rgba(50, 50, 50, 0.59);
 }
 
-.cover {
-    background: url(../img/cover.jpg) no-repeat 50% 50%;
-    height: 340px;
+.content {
+    border-top: 1px solid #e1e1e1;
+    padding: 30px 0 40px 0;
 }
 
-    .cover h1,
-    .cover h4 {
+
+
+    .content h1 {
+        font-size: 20px;
+        margin-bottom: 0;
+        color: #484848;
+    }
+
+    .content h2 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 0;
+        color: #828282;
+    }
+
+
+
+.cover {
+    background: url(../img/cover.jpg) no-repeat 100% 50%;
+    height: 340px;
+    border-top: 1px solid #e1e1e1;
+}
+
+    .cover h1 {
+        font-size: 24px;
         text-align: center;
+        margin: 60px 40px 20px 40px;
+        
         -ms-text-shadow: -1px -1px 1px rgba(255, 255, 255, 1);
         text-shadow: -1px -1px 1px rgba(255, 255, 255, 1);
     }
 
-
-
-
-
-@media (max-width: 600px) {
-    .cover {
-        background: url(../img/cover.jpg) no-repeat 70% 50%;
+    .cover h2 {
+        color: #828282;
+        font-size: 16px;
     }
-}
 
-@media (min-width: 992px) {
+    .phone-title {
+        font-size: 12px;
+    }
+    .phone {
+        font-size: 22px;
+        border-bottom: 1px dashed #464646;
+        padding: 0!important;
+    }
+
+
+
+@media (min-width: 768px) {
     .cover {
         background: url(../img/cover.jpg) no-repeat 50% 50%;
     }
+    .cover h1 {
+        font-size: 30px;
+    }
 }
+
 
 .content div h2 {
     text-align: center;
