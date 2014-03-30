@@ -9,7 +9,6 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="Content/css/bootstrap.css" rel="stylesheet" />
-    <script src="Content/js/bootstrap.js"></script>
     <link href="Content/css/site.css" rel="stylesheet" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -29,54 +28,82 @@
                 )
             );
             document.querySelector('head').appendChild(msViewportStyle);
-        }</script>
+        }
+     </script>
     <div class="container base-container">
         <div class="row">
-            <div class="col-sm-4 col-sm-pull-0 col-sm-offset-8 text-center">
-                <div>Принимаем заказы с 10<sup>00</sup>-20<sup>00</sup></div>
-                <span class="phone">+375 (29) <strong>213 13 35</strong></span>
+            <div class="col-sm-8 menu-container">
+                <nav class="navbar navbar-default" role="navigation">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">
+                          <img src="../Content/img/logo.jpg" alt="logo"/>
+                      </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav">
+                        <li class="current-page"><a href="#product">Продукция</a></li>
+                        <li><a href="#about-company">О компании</a></li>
+                        <li><a href="#about-company">Контакты</a></li>
+                      </ul>
+                    </div><!-- /.navbar-collapse -->
+                  </div><!-- /.container-fluid -->
+                </nav>
+            </div>
+            <div class="col-sm-4 text-center phone-content item-content">
+                <div>Принимаем заказы с 
+                    <span>10<sup>00</sup>-20<sup>00</sup></span>
+                </div>
+                <span class="phone">+ 375 (33) <strong>390 39 39</strong></span>
                 </>
             </div>
         </div>
         <div class="row cover">
-            <!--<img class="img-responsive" src="Content/img/cover.jpg"/>-->
-            <div class="col-sm-6 col-sm-offset-5">
+            <div class="col-sm-6 col-sm-offset-5 text-center">
                 <h1>
                     <strong>Магниты на холодильник с вашими фото из Instagram, Вконтакте, Facebook</strong>
                 </h1>
-                <h2 class="text-center">Лучший подарок родным и близким.</h2>
+                <h2>Лучший подарок родным и близким.</h2>
             </div>
         </div>
         <div class="content row">
-            <h1 class="text-center"><strong>Продукция</strong></h1>
+            <h1 id="product" class="text-center"><strong>Продукция</strong></h1>
             <h2 class="text-center">Виды продукции и их описание</h2>
             <div class="col-sm-4">
-                <h2>Акриловые магниты</h2>
+                <img class="img-responsive" src="../content/img/prod-acril-frame.jpg" alt="Акриловые магниты c вашими фотографиями из Instagram, Вконтакте, Facebook"/>
+                <h2 class="prod-name"><strong>Акриловые магниты</strong></h2>
                 <span>
-
                     Акриловый магнит – замечательный сувенир. Фотографии, помещенные в акриловые рамки, будут отличным подарком гостям на свадьбе. Магнитики можно легко крепить на холодильник, и они каждый день будут напоминать о радостных моментах Вашей жизни, не подвергаясь механическим повреждениям и выцветанию.
                 </span>
-
             </div>
-            <div class="col-sm-4">
-                <h2>Виниловые магниты</h2>
+            <div class="col-sm-4 item-content">
+                <img class="img-responsive" src="../content/img/prod-vinil.jpg" alt="Виниловые магниты c вашими фотографиями из Instagram, Вконтакте, Facebook"/>
+                <h2 class="prod-name"><strong>Виниловые магниты</strong></h2>
                 <span>
                     Фото на магнитном виниле - прекрасный способ рассказать о производимых Вами товарах и услугах. Визитки и календарики, оформленные профессионалами, будут радовать глаз Вашего клиента с двери его холодильника и ежедневно напоминать о Вашем существовании.
                 </span>
-
             </div>
-            <div class="col-sm-4">
-                <h2>Акриловые брелки</h2>
+            <div class="col-sm-4 item-content">
+                <img class="img-responsive" src="../content/img/prod-keys.jpg" alt="Акриловые,брелоки  c вашими фотографиями из Instagram, Вконтакте, Facebook"/>
+                <h2 class="prod-name"><strong>Акриловые брелоки</strong></h2>
                 <span>
                     Брелоки для ключей – Носите фотографии дорогих Вам людей, любимых вещей, памятных мест всегда с собой. Надежно защищенные прозрачным акрилом, они всегда будут с Вами. Акриловые брелоки – надежный способ всегда быть с клиентом.
                 </span>
             </div>
-
         </div>
         <div class="content row">
             <div class="col-sm-12">
-                <h1 class="text-center"><strong>О компании</strong> </h1>
-                <h2 class="text-center">Описание комипании magnitik.by</h2>
+                <h1 id="about-company" class="text-center"><strong>О компании</strong> </h1>
+                <h2 class="text-center">Описание компании magnitik.by</h2>
                 <span>
                     Занимаясь непосредственно производством сувениров, мы обеспечиваем минимальную цену на свою продукцию. Производство находится непосредственно в Беларуси, что обеспечивает кратчайшие сроки изготовления. Вы всегда можете заказать магнитики на холодильник и акриловые брелоки с Вашими фотографиями в индивидуальном исполнении связавшись с нами по реквизитам, размещенными в разделе «контакты» на сайте magnitik.by. Подписывайтесь и следите за акциями и спец. предложениями в наших группах в социальных сетях.
                 </span>
@@ -92,6 +119,9 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="Content/js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $('body').scrollspy({ target: '.navbar-example' })
+    </script>
 </body>
 </html>
