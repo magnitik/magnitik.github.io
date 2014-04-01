@@ -6,17 +6,61 @@
 }
 
 
-.phone-content{
+.phone-content {
     padding: 15px 0;
 }
 
-.item-content{
+.item-content {
     border-top: 1px solid #e1e1e1;
+    margin-top: 30px;
 }
 
-.prod-name{
-    font-size: 16px;
-    color: #4d4d4d;  
+.line {
+    height: 6px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAGCAYAAABUxhlHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QkQ5MTEyRERCOTg5MTFFM0FEQjI5QUNBRDFGNDdGRkUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QkQ5MTEyREVCOTg5MTFFM0FEQjI5QUNBRDFGNDdGRkUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCRDkxMTJEQkI5ODkxMUUzQURCMjlBQ0FEMUY0N0ZGRSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCRDkxMTJEQ0I5ODkxMUUzQURCMjlBQ0FEMUY0N0ZGRSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjqjBqYAAACCSURBVHjaYvz//z/DJ89KBiQQAsSrGQYHWAPEocgC0fWZg8p9TGgCIkA8dZA47g0QZ6MF3qBzHwua4HQgFhskDswE4leD2X1LG6e/YkLLuiGDKOuuwZJ1B437gIEHdh8sAEUHUdZ4jSXrDlr3wQJw2iDKGllYsu6gch8o68I4AAEGAGUHJq1KWPGsAAAAAElFTkSuQmCC') /*../img/line.png*/ repeat-x;
+    *background: url(../img/line.png) repeat-x; /* For IE 6 and 7 */
+}
+
+.contact-info {
+    margin: 0 -15px;
+    background: #fffdf3;
+    text-align: center;
+}
+
+    .contact-info ul {
+        list-style: none;
+        padding: 0;
+        display: block;
+        position: relative;
+    }
+
+        .contact-info ul li {
+            display: block;
+            float: left;
+            margin: 0 5px 0 0;
+            font-size: 12px;
+            text-align: center;
+            position: relative;
+        }
+
+            .contact-info ul li div {
+                width: 20px;
+                height: 20px;
+                border: 4px solid #616161;
+            }
+
+    .contact-info .phone {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+.days {
+    width: 175px;
+    margin: 0 auto;
+}
+
+.free-day {
+    background: #8d8d8d;
 }
 
 .content {
@@ -24,31 +68,47 @@
     padding: 30px 0 40px 0;
 }
 
-.current-page{
+.current-page {
     background-color: #d5f4fa;
     border-bottom: 5px solid #4cc7e1;
 }
 
+.contact-info h1,
+.content h1 {
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #484848;
+}
 
+.contact-info h2,
+.content h2 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 0;
+    color: #828282;
+}
 
+.contact-info .prod-item {
+    margin-bottom: 0;
+}
 
-    .content h1 {
-        font-size: 20px;
-        margin-bottom: 0;
-        color: #484848;
-    }
-
-    .content h2 {
-        font-size: 16px;
-        line-height: 20px;
-        margin-top: 0;
-        color: #828282;
-    }
-.menu-container{
+.menu-container {
     padding: 0;
 }
 
+.prod-item {
+    padding-top: 20px;
+}
 
+    .prod-item img {
+        margin: 0 auto;
+    }
+
+.prod-name {
+    font-size: 16px;
+    color: #4d4d4d;
+    padding-top: 15px;
+}
 
 .cover {
     margin-top: -2px;
@@ -62,7 +122,6 @@
         font-size: 24px;
         text-align: center;
         margin: 60px auto 20px auto;
-        
         -ms-text-shadow: -1px -1px 1px rgba(255, 255, 255, 1);
         text-shadow: -1px -1px 1px rgba(255, 255, 255, 1);
     }
@@ -72,28 +131,90 @@
         font-size: 16px;
     }
 
-    .phone-title {
-        font-size: 12px;
-    }
-    .phone {
-        font-size: 22px;
-        border-bottom: 1px dashed #464646;
-        padding: 0!important;
-    }
+.phone-title {
+    font-size: 12px;
+}
+
+.phone {
+    font-size: 18px;
+    border-bottom: 1px dashed #464646;
+    padding: 0 !important;
+}
+
+.footerSocialLinks a {
+    display: inline-block;
+    margin-left: 2px;
+    width: 51px;
+    height: 51px;
+    background: url(images/sprite.png)no-repeat -71px -77px;
+}
 
 
+.social-items a :hover,
+.social-items a :active,
+.social-items a,
+.prod-item a:hover,
+.prod-item a:active,
+.prod-item a {
+    text-decoration: none;
+}
+
+    .social-items a img {
+        width: 35px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+    .footer-h1 {
+        font-size: 14px;
+        line-height: 15px;
+        margin: 5px;
+        padding: 0;
+    }
 
 @media (min-width: 768px) {
     .cover {
         background: url(../img/cover.jpg) no-repeat 50% 50%;
     }
-    .cover h1 {
-        font-size: 30px;
-    }
-    .item-content{
+
+        .cover h1 {
+            font-size: 26px;
+        }
+
+    .item-content {
         border-top: 1px solid transparent;
+        margin-top: 0;
+    }
+
+    .contact-info .prod-item {
+        margin-bottom: 30px;
+    }
+
+    .social-items a img {
+        width: 45px;
     }
 }
+
+
+@media (min-width: 992px) {
+        .navbar-nav > li > a {
+            font-size: 18px;
+        }
+        .phone {
+            font-size: 22px;
+        }
+        .cover h1 {
+            font-size: 30px;
+        }
+        .contact-info .phone {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    
+}
+
 
 
 .content div h2 {
