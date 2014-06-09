@@ -141,6 +141,13 @@
     padding: 0 !important;
 }
 
+.mail
+{
+    color: #585858;
+    text-decoration: none;
+}
+
+
 .footerSocialLinks a {
     display: inline-block;
     margin-left: 2px;
